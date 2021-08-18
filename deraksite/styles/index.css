@@ -1,0 +1,233 @@
+
+/* _______imageoverlay_______ */
+
+.container {
+    position: relative;
+    width: 250px;
+    height: 450px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:#61A5C2;
+    opacity:80%;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    height: 31%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 33px;
+    position: absolute;
+    opacity:200% !important;
+    top: 20%;
+    right: -19%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: right;
+    text-decoration: none;
+  }
+
+/* _______links in navbar_________ */
+
+  .navroot {
+    text-align:center;
+    display: inline-block;
+    padding: 35px;
+    vertical-align:top;
+    transition: 475ms ease;
+    
+  }
+  .navhr{
+    margin-top:18px;
+    border: solid 1px;
+    border-radius: 100px;
+    transition: 475ms ease;
+    opacity: 0;
+    color: white;
+    width: 100%;
+    
+  }
+  
+  .navlink {
+    text-decoration:none;
+    font-size: 22px; 
+    color: white; 
+
+    
+}
+
+
+.navroot:hover .navhr {
+  display:block;
+  margin-top:2px;
+  color: black;
+  opacity: 1;
+  }
+
+  
+
+  /*_______ iconlinkcontact in footer ________*/
+ .iconacontact{
+   height: 32px;
+   width: 32px;
+   border-radius: 100px;
+   background-color: white ;
+   display: inline-block;
+   margin: 10px;
+   
+   
+ }
+ .iconinsta{
+   color: blue;
+  margin:3.5px;
+ }
+ .linkform{
+   direction: rtl;
+ }
+ .iconformcontact{
+  height: 32px;
+  width: 32px;
+  border-radius: 100px;
+  background-color: white ;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  
+}
+.linkp{ 
+  display: inline-block;
+  font-size: 18px;
+
+}
+.linkhr{
+  width: 300px;
+  border: solid 1px;
+  margin-right: 0px;
+  margin-top: 4px;
+  color: white;
+}
+
+/* ___________typography_____________ */
+.typemain{
+  font-size:20px ;
+  color:white;
+  justify-items:center;
+  justify-content: center;
+ 
+  
+}
+
+/*_______ footer colunm three_________ */
+
+.typefootercolunmthree{
+  font-size: 18px;
+  direction: rtl;
+  color: white;
+}
+.footertitle{
+  color: white;
+  direction: rtl;
+}
+
+
+
+/*______________ header___________ */
+.backgroundheader{
+  background-image: url('/static/background1.jpg') ;
+  height: 700px;
+  width: 100%;
+  background-size:100% 100%;
+  direction: rtl;
+padding: 20px;
+}
+
+.rootheader{
+  width: 100%;
+  direction:'rtl';
+}
+
+/* ____________Timeline____________ */
+
+.dot{
+  transform: scale(.3,.3);
+  
+}
+
+.dot1{
+  transform: scale(3,3);
+  transition: all 1s ease;
+  margin-bottom:15px;
+  margin-top:15px;
+}
+ 
+.dot1:hover{
+   transform: scale(4.1,4.1);
+   margin:2px;
+}
+
+.paper{
+  padding: 6px 16px;
+    padding-top:0px;
+    margin-top:-7px;
+}
+
+.title{
+  transform:scale(1,1);
+  transition: all 1s ease;
+  
+   
+}
+.title:hover{
+   transform: scale(1.05,1.05);
+}
+
+/* ___________introduction__________ */
+
+.gridbutton{
+  margin-left: 40px;
+  margin-top: -40px;
+}
+
+/* _______________service______________ */
+
+.articlegrid{
+  direction: rtl;
+  
+}
+  /*___________ article____________ */
+.articleimgroot{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+  justify-content:flex-start
+}
+.imageListart{
+  flex-wrap: nowrap;
+  transform: translateZ(0);
+}
+/* ________________Branding ________________*/
+
+.brandroot{
+  background-image: url('/static/background1.jpg');
+  height: 600px;
+  width: 100%;
+  background-size:100% 100%;
+}
