@@ -17,6 +17,8 @@ const useStyles = makeStyles({
     listtype:{
       direction:'rtl',
       textAlign:'right',
+      color:'darkblue',
+      fontSize:25 ,
     },
     
   });

@@ -32,8 +32,8 @@ export default function Footercontact(){
     return(
         <Grid   style={{backgroundColor:'black',width:'100%'}}>
           <Grid   item md={12} container style={{direction:'rtl',padding:'3px'}}>
-        <Grid item md={2} className={classes.gridp}> <Typographyp >
-             ارتباط سریع
+        <Grid item md={2} className={classes.gridp}> <Typographyp text=" ارتباط سریع" color="white" size="18px" >
+             
          </Typographyp></Grid> 
          <Grid item md={7}>
         <form >
@@ -44,8 +44,8 @@ export default function Footercontact(){
              <MyIconButton icon={call} linksocial="#"/>
              
         </form></Grid>
-        <Grid item md={2} className={classes.gridp2}> <Typographyp >
-           کلیه حقوق محفوظ است
+        <Grid item md={2} className={classes.gridp2}> <Typographyp text=" کلیه حقوق محفوظ است" color="white" size="18px">
+          
          </Typographyp></Grid> 
        </Grid>
         </Grid>

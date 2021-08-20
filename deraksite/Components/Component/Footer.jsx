@@ -8,7 +8,7 @@ import Footercontact from '../Partials/Footercontact';
 export default  function Footer(){
 
     return(
-        <Grid style={{backgroundColor:'#0a28ac;',padding:'5px'}}>
+        <Grid style={{backgroundColor:'#0a28ac',padding:'5px'}}>
         <Grid container  style={{padding:'5px',direction:'rtl'}}>
           
         <Grid style={{padding:'30px',direction:'rtl'}} item md={4} sx={12}>

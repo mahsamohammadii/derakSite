@@ -5,7 +5,7 @@ import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import MyIconButton from '../Elements/MyIconbutton';
 import TelegramIcon from '@material-ui/icons/Telegram';
-import Basictitle from '../Elements/Basictitle';
+
 export default function Contactusbox() {
 
     const wtapp=<WhatsAppIcon style={{color:'blue',justifyContent:'center',margin:'3.5px',fontSize:'25px'}}/>
@@ -14,11 +14,11 @@ export default function Contactusbox() {
    
 
     return (
-    <Grid>
-        <Basictitle/>
+    <Grid >
+        
        <Grid style={{direction:'rtl',marginTop:'40px'}}>
-          <Grid container item xs={12}>
-              <Grid item xs={4}>
+          <Grid container item xs={12} >
+              <Grid item md={4} xs={4}>
                   <Typography style={{fontSize:'20px' ,color:'darkblue'}}>
                       تلفن تماس
                   </Typography>
@@ -28,7 +28,7 @@ export default function Contactusbox() {
                       07131234567
                   </Typography>
               </Grid>
-              <Grid item xs={4}>
+              <Grid item md={4} xs={8}>
                   <Navlink title="الان تماس بگیرید" href='#' hrColor="blue" color="blue"/>
               </Grid>
             </Grid> 

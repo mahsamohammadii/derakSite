@@ -9,7 +9,7 @@ export default function Contactus() {
               <Contactusbox/>
             </Grid>
             <Grid item md={6}>
-                 <Image  width="100%" height="300px" src="/static/marketing1.jpg" alt="ax"/>
+                 <Image  width="100%" height="320px" src="/static/background1.jpg" alt="ax"/>
             </Grid>
         </Grid>
     )

@@ -313,3 +313,10 @@ object-fit: cover;
  
 
 }
+
+.logingrid{
+  background-image: url("/static/o.jpg");
+  background-size: cover;
+  height: 600px;
+  padding: 30px;
+}
