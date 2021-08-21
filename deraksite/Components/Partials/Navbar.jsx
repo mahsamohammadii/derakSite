@@ -22,7 +22,7 @@ export default function Navbar(){
          
       
 
-      <Navlink to="/Components/Component/Articlepage.jsx"  title="مقالات" href='#' hrColor="white" color="white"/>
+      <Navlink to="/Components/" title="مقالات" href='#' hrColor="white" color="white"/>
        
       
 
