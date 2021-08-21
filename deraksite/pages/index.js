@@ -10,12 +10,15 @@ import Loginform from '../Components/Partials/Loginform'
 import login from '../Components/Component/Login'
 import Login from '../Components/Component/Login'
 import Contactuspage from '../Components/Component/Contactuspage'
-
+import { BrowserRouter } from 'react-router-dom'
 
 export default function Home() {
   return (
     <Grid style={{direction:'rtl'}}>
-    <Articledetail/>
+  
+   <BrowserRouter>
+      <Homepage/>
+    </BrowserRouter>,
     </Grid>
   )
 }
