@@ -15,7 +15,7 @@ import Contactuspage from '../Components/Component/Contactuspage'
 export default function Home() {
   return (
     <Grid style={{direction:'rtl'}}>
-   <Contactuspage/>
+    <Articledetail/>
     </Grid>
   )
 }
