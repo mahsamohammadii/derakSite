@@ -9,28 +9,28 @@ export default function Navbar(){
     return(
          <Grid container style={{direction:'rtl'}}>
 
-      <Navlink to="/Components/Component/Homepage.jsx" title="خانه"  hrColor="white" color="white"/>
+      <Navlink  title="خانه" href="/" hrColor="white" color="white"/>
          
     
-      <Navlink title="درباره ی ما"  hrColor="white" color="white"/>
+      <Navlink title="درباره ی ما" href="/" hrColor="white" color="white"/>
          
     
-      <Navlink title="خدمات برندینگ" href='#' hrColor="white" color="white"/>
+      <Navlink title="خدمات برندینگ" href="/" hrColor="white" color="white"/>
       
 
-      <Navlink title="دوره ی برندینگ" href='#' hrColor="white" color="white"/>
+      <Navlink title="دوره ی برندینگ" href="/" hrColor="white" color="white"/>
          
       
 
-      <Navlink to="/Components/Component/Articlepage.jsx" title="مقالات" href='#' hrColor="white" color="white"/>
+      <Navlink  title="مقالات" href='Articlepage' hrColor="white" color="white"/>
        
       
 
-      <Navlink title="ارتباط با ما"  href='#' hrColor="white" color="white"/>
+      <Navlink title="ارتباط با ما"  href="/" hrColor="white" color="white"/>
         
       
 
-      <Navlink title="عضویت در خبر نامه" href='#' hrColor="white" color="white"/>
+      <Navlink title="عضویت در خبر نامه" href="/" hrColor="white" color="white"/>
        
      
 

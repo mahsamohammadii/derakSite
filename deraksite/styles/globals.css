@@ -87,8 +87,12 @@ a {
   text-decoration:none;
   font-size: 22px; 
   color: white; 
-
+  vertical-align:top;
   
+}
+
+.contactusvertical{
+  vertical-align:top;
 }
 
 

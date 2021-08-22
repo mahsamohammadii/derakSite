@@ -1,9 +1,9 @@
 import { Grid } from '@material-ui/core'
 import React from 'react'
-import Basictitle from '../Elements/Basictitle'
-import Articlebox from '../Partials/Articlebox'
-import Header from './Header'
-import Footer from './Footer'
+import Basictitle from '../Components/Elements/Basictitle'
+import Articlebox from '../Components/Partials/Articlebox'
+import Header from '../Components/Component/Header'
+import Footer from '../Components/Component/Footer'
 
 export default function Articlepage() {
     return (   

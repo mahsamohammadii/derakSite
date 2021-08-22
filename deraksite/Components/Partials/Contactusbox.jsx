@@ -32,7 +32,7 @@ export default function Contactusbox() {
                   <Navlink title="الان تماس بگیرید" href='#' hrColor="blue" color="blue"/>
               </Grid>
             </Grid> 
-            <Grid>
+            <Grid className="contactusvertical">
             <Typography style={{fontSize:'20px' ,color:'#081741'}}>
                      شبکه های اجتماعی ما
                   </Typography>
