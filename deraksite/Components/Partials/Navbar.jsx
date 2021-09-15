@@ -9,7 +9,7 @@ export default function Navbar(){
     return(
          <Grid container style={{direction:'rtl'}}>
 
-      <Navlink  title="خانه" href="/" hrColor="white" color="white"/>
+      <Navlink  title="خانه" href="Homepage" hrColor="white" color="white"/>
          
     
       <Navlink title="درباره ی ما" href="/" hrColor="white" color="white"/>
@@ -26,7 +26,7 @@ export default function Navbar(){
        
       
 
-      <Navlink title="ارتباط با ما"  href="/" hrColor="white" color="white"/>
+      <Navlink title="ارتباط با ما"  href="Contactuspage" hrColor="white" color="white"/>
         
       
 

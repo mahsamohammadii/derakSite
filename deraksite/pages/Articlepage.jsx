@@ -10,7 +10,7 @@ export default function Articlepage() {
          <Grid >
          <Header/>
           <Grid style={{marginBottom:'40px',direction:'rtl',marginTop:'40px'}} item xs={12}>
-             <Basictitle margin="30px" color="black" title="مقالات ما" fontsize="30px" href="#" />
+             <Basictitle margin="30px" color="#013A63" title="مقالات ما" fontsize="30px" href="#" />
            </Grid>
          
        <Grid container spacing={4}>

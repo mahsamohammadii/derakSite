@@ -10,6 +10,8 @@ class MyDocument extends Document {
     return (
       <Html  >
         <Head>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+
           <meta charSet="utf-8" />
           {/* <meta name="theme-color" content={theme.palette.primary.main} /> */}
           {/* <link rel="shortcut icon" href="favicon"/> */}

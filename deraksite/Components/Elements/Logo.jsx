@@ -5,7 +5,7 @@ export default function Logo(props){
         return(
 
             
-             <img className="logofit" src={props.logopic} alt="logo" style={{width:'200px', height: '80px'}}/>
+             <img className="logofit" src={props.logopic} alt="logo" style={{width:'100%', height: '80px'}}/>
             
         )
 

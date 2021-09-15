@@ -51,7 +51,7 @@ export default function Timelinebase(props) {
               return (
                 <TimelineItem key={i}>
                   <TimelineOppositeContent>
-                    <Typography style={{ color: "white" }}>
+                    <Typography style={{ color: "white",fontSize:'17px' ,margin:'10px'}}>
                       {" "}
                       لورم اسپورم متن ساختگی و گرافیکی لورم اسپورم متن ساختگی و
                       گرافیکی لورم اسپورم متن ساختگی و گرافیکی لورم اسپورم متن
@@ -60,17 +60,29 @@ export default function Timelinebase(props) {
                   </TimelineOppositeContent>
                   <TimelineSeparator>
                     <TimelineDot
-                      style={{ marginBottom: "15px", marginTop: "15px" }}
+                      style={{ marginBottom: "20px", marginTop: "20px" }}
                       className="dot1"
                     />
-                    <TimelineConnector />
+                   <TimelineDot
+                      style={{ marginBottom: "3px", marginTop: "3px",transform: 'scale(.4,.4)' }}
+                    />
+                    <TimelineDot
+                      style={{ marginBottom: "3px", marginTop: "3px",transform: 'scale(.4,.4)'  }}
+                    />
+                    <TimelineDot
+                      style={{ marginBottom: "3px", marginTop: "3px",transform: 'scale(.4,.4)'  }}
+                    />
+                    <TimelineDot
+                      style={{ marginBottom: "3px", marginTop: "3px",transform: 'scale(.4,.4)' }}
+                    />
+                    <TimelineDot
+                      style={{ marginBottom: "3px", marginTop: "3px",transform: 'scale(.4,.4)'  }}
+                    />
                   </TimelineSeparator>
                   <TimelineContent>
                     <Typography
                       className="title"
-                      variant="h6"
-                      component="h1"
-                      style={{ color: "white" }}
+                      style={{ color: "white",fontSize:'19px' ,margin:'10px' }}
                     >
                       گام {i}
                     </Typography>

@@ -3,11 +3,13 @@ import React from 'react'
 export default function Inputform(props) {
     return (
         <form >
-            <label style={{fontSize:'20px',color:'darkblue',direction:'rtl'}}>
+            <label style={{fontSize:'19px',color:'#005091',direction:'rtl'}}>
                  {props.title}
             </label>
             <br/>
-         <input style={{border:'solid 4px darkblue',height:props.height,width:'400px',color:'white',borderRadius:'10px'}}/>
+         <textarea style={{border:'solid 1px #005091',height:props.height,width:'250px',borderRadius:'10px',outline: "none",
+    border: "none",
+    }}/>
          
         </form>
     )

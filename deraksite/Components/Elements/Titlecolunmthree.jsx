@@ -5,7 +5,7 @@ export default function Titlecolunmthree(props){
 
     return(
          
-        <Typography style={{fontSize:'18px'}} className="typefootercolunmthree">
+        <Typography style={{fontSize:'16px'}} className="typefootercolunmthree">
             {props.children}
         </Typography>
 

@@ -14,7 +14,7 @@ export default function Service(){
 
         <Grid justify="center" container className="articlegrid">
          <Grid style={{marginBottom:'40px',textAlign:'right',marginRight:'60px'}} item xs={12}>
-          <Basictitle  color="black" title="خدمات ما" fontsize="30px"  href="#"/>
+          <Basictitle  color="#013A63" title="خدمات ما" fontsize="30px"  href="#"/>
            </Grid>     
          <Grid item xs={12} md={8}>
                

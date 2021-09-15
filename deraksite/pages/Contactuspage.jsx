@@ -4,22 +4,23 @@ import Contactus from '../Components/Component/Contactus'
 import Header from '../Components/Component/Header'
 import Login from '../Components/Component/Login'
 import Footer from '../Components/Component/Footer'
-import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
-import ReactMapGL from 'react-map-gl';
-import { Popup } from 'mapir-react-component/node_modules/react-mapbox-gl'
+// import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+// import ReactMapGL from 'react-map-gl';
+// import { Popup } from 'mapir-react-component/node_modules/react-mapbox-gl'
+// import Mapp from '../Components/Elements/Mapp'
 
 export default function Contactuspage(props) {
     return (
         <Grid>
             <Header/>
            <Grid>
-               <Grid style={{marginTop:'20px',marginBottom:'50px'}}>
+               <Grid style={{marginTop:'20px',marginBottom:'50px',direction:'rtl'}}>
              <Contactus/></Grid>
-             <hr/>
-             <hr/>
+             {/* <hr/>
+             <hr/> */}
               
-              <Grid style={{height:'700px',width:'100%'}}>
-                  {/* <Map style={{height:'700px',width:'100%'}} google={props.google} zoom={14}>
+              {/* <Grid style={{height:'700px',width:'100%'}}>
+                  <Map style={{height:'700px',width:'100%'}} google={props.google} zoom={14}>
  
         <Marker onClick={Marker}
                 name={'Current location'} />
@@ -27,43 +28,14 @@ export default function Contactuspage(props) {
         <InfoWindow onClose={InfoWindow}>
           
         </InfoWindow>
-      </Map> */}
+      </Map>
 
-<ReactMapGL
-  mapStyle="mapbox://styles/mapbox/streets-v11"
-  mapboxApiAccessToken={process.env.MAPBOX_KEY}
-  {...viewport}
-  onViewportChange={(nextViewport) => setViewport(nextViewport)}
-  >
-  {locations.map((location) => (
-    <div key={location.id}>
-      <Marker
-      latitude={location.center[1]}
-      longitude={location.center[0]}
-      offsetLeft={-20}
-      offsetTop={-10}>
-        <a onClick={() => {
-          setSelectedLocation(location);
-        }}>
-          <span role="img" aria-label="push-pin">📌</span>
-        </a>
-      </Marker>
-      {selectLocation.id === location.id ? (
-      <Popup
-      onClose={() => setSelectedLocation({})}
-      closeOnClick={true}
-      latitude={location.center[1]}
-      longitude={location.center[0]}>
-        {location.place_name}
-      </Popup>) : (false)}
-    </div>
-  ))}
-</ReactMapGL>
+             <Mapp/>
 
-              </Grid>
+              </Grid> */}
               <hr/>
              <hr/>
-             <Grid style={{marginTop:'30px',marginBottom:'20px'}}>
+             <Grid style={{marginTop:'30px',marginBottom:'20px',direction:'rtl'}}>
              <Login/></Grid>
            </Grid>
              <Footer/>

@@ -14,7 +14,7 @@ export default function Navlink(props){
       <Grid  className="navroot">
         
          <Link href={props.href} 
-         passHref
+         
          className="navlink"
            style={{textDecoration:'none',color:props.color}}>
              {props.title}  

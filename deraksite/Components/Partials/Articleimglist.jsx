@@ -12,7 +12,7 @@ export default function Articleimglist() {
     <div style={{padding:'0px'}} >
       <ImageList style={{flexWrap: 'nowrap',}}  cols={5.5}>
         {itemDataa.map((item) => (
-          <ImageListItem style={{height:'450px',width:'250px' }} key={item.img} >
+          <ImageListItem style={{height:'350px',width:'200px' }} key={item.img} >
             
            <Imageoverlay srcoverlay={item.img} linkoverlay="#" altoverlay="ax" titleoverlay="متن ساختگی"/>
 

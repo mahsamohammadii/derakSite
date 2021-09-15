@@ -10,7 +10,7 @@ export default function Imagearticledetail() {
         {/* <Image src="/static/pic10.jpg" width="100%" height="370px" /> */}
          <div className="divarticleimgdetail">
         <Typography
-          style={{ fontSize: "30px", textAlign: "right", color: "white" ,padding:"3px" }}
+          style={{ fontSize: "24px", textAlign: "right", color: "white" ,padding:"3px"  }}
         >
           خانواده
         </Typography>

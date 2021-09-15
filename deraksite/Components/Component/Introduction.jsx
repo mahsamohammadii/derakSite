@@ -16,12 +16,12 @@ export default function Introduction(){
                 <Grid container spacing={3}>
                   <Grid item md={4} xs={12}>
                     
-                    <Image width='100%' height='350px' src='/static/background1.jpg' alt='derak' />
+                    <Image width='100%' height='330px' src='/static/background1.jpg' alt='derak' />
                     
                   </Grid>
-                  <Grid item md={8} xs={12} style={{marginTop:'20px'}} >
+                  <Grid item md={8} xs={12} style={{marginTop:'2px'}} >
                    
-                    <Typography  style={{color:'black',margin:'40px',fontSize:'20px'}}>
+                    <Typography  style={{color:'#013A63',margin:'40px',fontSize:'18px'}}>
                لورم اسپورم متن ساختگی و گرافیکی
                لورم اسپورم متن ساختگی و گرافیکی
                لورم اسپورم متن ساختگی و گرافیکی 
@@ -46,7 +46,7 @@ export default function Introduction(){
                لورم اسپورم متن ساختگی و گرافیکی
                     </Typography>
                    <Grid className="gridbutton" style={{direction:'ltr'}}>
-                    <Navlink color='blue' href='#' title="بیشتر بخوانید" hrColor='blue'/>
+                    <Navlink color="#013A63" href='#' title="بیشتر بخوانید" hrColor='blue'/>
                      
                     </Grid>
                   
