@@ -29,32 +29,11 @@ export default function BasicImageList() {
   const classes = useStyles();
 
   return (
-    <Grid>
-      <Grid>
-        <Grid style={{ margin: "10px" }} className={classes.roottwo}>
-          <ImageList rowHeight={300} cols={3}>
-            {itemDatatwo.map((item) => (
-              <ImageListItem key={item.img} cols={item.cols || 1}>
-                {/* <h1>{item.title}</h1> */}
-                <Grid item xs={12}>
-                  <Link href="#">
-                    {" "}
-                    <Image
-                      className="imgfit"
-                      layout="fill"
-                      src={item.img}
-                      alt={item.title}
-                    />
-                  </Link>{" "}
-                </Grid>
-              </ImageListItem>
-            ))}
-          </ImageList>
-        </Grid>
-      </Grid>
+    <Grid  >
+     
 
-      <Grid style={{ margin: "10px" }} className={classes.root}>
-        <ImageList rowHeight={300} cols={3}>
+      <Grid  style={{ margin: "0px" }} className={classes.root}>
+        <ImageList rowHeight={220} cols={3}>
           {itemData.map((item) => (
             <ImageListItem key={item.img} cols={item.cols || 1}>
               {/* <h1>{item.title}</h1> */}

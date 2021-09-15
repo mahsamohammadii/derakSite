@@ -1,8 +1,10 @@
-import React from 'react';
-import Link from '@material-ui/core/Link';
-import { Typography } from '@material-ui/core';
+import React,{component} from 'react';
 import Grid from '@material-ui/core/Grid';
 import Navhr from '../Elements/Navhr';
+import Link from 'next/link'
+
+
+
 
 export default function Navlink(props){
 
@@ -10,10 +12,17 @@ export default function Navlink(props){
   
     return(
       <Grid  className="navroot">
-        <Link className="navlink" href={props.href} style={{textDecoration:'none',color:props.color}} onClick={preventDefault} >
-        {props.title}  
-         <Navhr color={props.hrColor}/>
-        </Link> 
+        
+         <Link href={props.href} 
+         
+         className="navlink"
+           style={{textDecoration:'none',color:props.color}}>
+             {props.title}  
+          </Link> 
+                   <Navhr color={props.hrColor}/>
+                  
+         
+        
         </Grid>
     );
 }

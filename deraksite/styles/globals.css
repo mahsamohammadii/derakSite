@@ -9,6 +9,7 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  
 }
 
 * {
@@ -45,12 +46,12 @@ a {
 }
 
 .container:hover .overlay {
-  height: 31%;
+  height: 44%;
 }
 
 .text {
-  color: white;
-  font-size: 33px;
+  color: #013A63;
+  font-size: 25px;
   position: absolute;
   opacity:200% !important;
   top: 20%;
@@ -70,7 +71,7 @@ a {
   padding: 25px;
   vertical-align:top;
   transition: 475ms ease;
-  
+  font-size: 18px;
 }
 .navhr{
   margin-top:18px;
@@ -79,6 +80,7 @@ a {
   transition: 475ms ease;
   opacity: 0;
   color: white;
+  vertical-align:top;
   width: 100%;
   
 }
@@ -87,8 +89,12 @@ a {
   text-decoration:none;
   font-size: 22px; 
   color: white; 
-
+  vertical-align:top;
   
+}
+
+.contactusvertical{
+  vertical-align:bottom;
 }
 
 
@@ -113,20 +119,19 @@ opacity: 1;
  
 }
 .iconinsta{
- color: blue;
+ color: #0D60B5;
 margin:3.5px;
 }
 .linkform{
  direction: rtl;
 }
 .iconformcontact{
-height: 32px;
-width: 32px;
+height: 27px;
+width: 27px;
 border-radius: 100px;
 background-color: white ;
 display: inline-block;
-margin-left: 15px;
-margin-right: 15px;
+
 
 }
 .linkp{ 
@@ -136,7 +141,7 @@ font-size: 18px;
 }
 .linkhr{
 width: 230px;
-border: solid 1px;
+border: solid 0.5px;
 margin-right: 0px;
 margin-top: 4px;
 color: white;
@@ -170,7 +175,7 @@ direction: rtl;
 /*______________ header___________ */
 .backgroundheader{
 background-image: url('/static/background1.jpg') ;
-height: 700px;
+height: 100%;
 width: 100%;
 background-size:cover;
 direction: rtl;
@@ -181,6 +186,7 @@ object-fit: cover;
 .rootheader{
 width: 100%;
 direction:'rtl';
+height: 592px;
 }
 
 /* ____________Timeline____________ */
@@ -198,7 +204,7 @@ margin-top:15px;
 }
 
 .dot1:hover{
- transform: scale(4.1,4.1);
+ transform: scale(3.8,3.8);
  margin:2px;
 }
 
@@ -270,10 +276,18 @@ transform: translateZ(0);
 
 .brandroot{
 background-image: url('/static/pic1.jpg');
-height: 1000px;
+height: 700px;
 width: 100%;
 background-size: cover;
 object-fit: cover;
+position: relative;
+
+}
+
+.linkbranding{
+  position: absolute;
+  top: 550px;
+  right: 70px;
 }
 
 .imgfit{
@@ -285,6 +299,9 @@ object-fit: cover;
 
 .brandinggrid{
   margin-top: 40px;
+
+  height: 750px;
+
  
 }
 .gridshowdrawer{
@@ -297,7 +314,7 @@ object-fit: cover;
   position: relative;
   background-image: url('/static/pic10.jpg');
   background-size: cover;
-  width: 100%;
+  width: 90%;
   height: 370px;
   padding: 3px;
 }

@@ -9,8 +9,8 @@ export default function Articlebox(props) {
       <Grid style={{ textAlign: "center" }}>
         <Image
           src={props.articlesrc}
-          width="300px"
-          height="400px"
+          width="230px"
+          height="330px"
           alignimg="center"
           radiusimg="10px"
         />
@@ -20,7 +20,7 @@ export default function Articlebox(props) {
         <Typography
           style={{
             color: "#6b6741",
-            fontSize: "30px",
+            fontSize: "22px",
             textAlign: "center",
             margin: "7px",
           }}
@@ -29,8 +29,8 @@ export default function Articlebox(props) {
         </Typography>
         <Typography
           style={{
-            color: "#262533",
-            fontSize: "25px",
+            color: "#013A63",
+            fontSize: "17px",
             textAlign: "center",
             margin: "5px",
           }}
@@ -41,10 +41,10 @@ export default function Articlebox(props) {
       <Grid style={{ textAlign: "center" }}>
         {" "}
         <Navlink
-          color="#3e45a3"
+          color="#0D60B5"
           href="#"
           title="بیشتر بخوانید"
-          hrColor="#3e45a3"
+          hrColor="#0D60B5"
         />
       </Grid>
     </Grid>

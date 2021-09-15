@@ -9,7 +9,7 @@ export default function Colunmonefooter(props){
         <div>
        <Titlefooter titlefooter="درباره ما"/>
        <br/>
-        <Typographyp size="18px"  style={{ textAlign:' right'}} text=" لورم اسپورم متن ساختگی و گرافیکی
+        <Typographyp size="16px"  style={{ textAlign:' right'}} text=" لورم اسپورم متن ساختگی و گرافیکی
                لورم اسپورم متن ساختگی و گرافیکی
                لورم اسپورم متن ساختگی و گرافیکی 
                لورم اسپورم متن ساختگی و گرافیکی

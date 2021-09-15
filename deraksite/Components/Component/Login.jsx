@@ -6,10 +6,10 @@ import Loginform from '../Partials/Loginform';
 
  export default function Login(props) {
     return (
-        <Grid>
+        <Grid style={{height:'700px',}}>
             <Grid style={{marginBottom:'30px'}}>
-            <Basictitle margin="10px" marginTop="25px" fontsize="28px"  color="darkblue" title="درخواست وقت ملاقات و مشتوره" />
-            <Typographyp text="با قرار دادن اطلاعات تماس خود کارشناسان ما با شما ارتباط برقرار میکنند" size="19px"marginTop="5px" textcolor="darkblue" />
+            <Basictitle margin="10px" marginTop="25px" fontsize="25px"  color="#005091" title="درخواست وقت ملاقات و مشاوره" />
+            <Typographyp style={{ opacity: '0.5'}} text="با قرار دادن اطلاعات تماس خود کارشناسان ما با شما ارتباط برقرار میکنند" size="19px"marginTop="5px" textcolor="#005091" />
        </Grid>
         <Grid container className="logingrid">
             <Loginform/>

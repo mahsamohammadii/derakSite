@@ -10,12 +10,13 @@ export default function Branding(){
 
         <Grid className="brandinggrid">
              <Grid style={{marginBottom:'40px',direction:'rtl'}} item xs={12}>
-             <Basictitle margin="30px" color="black" title="دوره های برندینگ" fontsize="30px" href="#" />
+             <Basictitle margin="30px" color="#013A63" title="دوره های برندینگ" fontsize="30px" href="#" />
            </Grid>
          
             <Grid className="brandroot">
-      
-            <Navlink color='blue' href='#' title="مشاهده همه دوره های ما " hrColor='blue'/>
+               <Grid className="linkbranding">
+            <Navlink color='#0D60B5' href='#' title="مشاهده همه دوره های ما " hrColor='#0D60B5'/>
+             </Grid>
             </Grid>
             
         </Grid>
